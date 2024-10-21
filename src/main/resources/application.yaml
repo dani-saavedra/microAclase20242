@@ -1,0 +1,12 @@
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://172.20.10.3:8787/eureka
+spring:
+  application:
+    name: MicroA
+server:
+  port: 8083
