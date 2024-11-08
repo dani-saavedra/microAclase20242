@@ -1,13 +1,13 @@
-package com.example.microa;
+package com.example.microb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroaApplication {
+public class MicrobApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroaApplication.class, args);
+		SpringApplication.run(MicrobApplication.class, args);
 	}
 
 }
